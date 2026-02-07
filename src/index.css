@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    background-color: #020617;
+    /* Slate 950 */
+    color: #f8fafc;
+    /* Slate 50 */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(148, 163, 184, 0.2);
+    border-radius: 20px;
+}
+
+.mask-linear-fade {
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
