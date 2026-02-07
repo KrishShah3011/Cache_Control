@@ -12,7 +12,7 @@ function App() {
             <Header leaderboard={leaderboard} />
 
             <main className="flex-1 flex flex-col overflow-y-auto p-6 gap-6 min-h-0 relative z-0">
-                <div className="flex-1 max-w-7xl w-full grid grid-cols-1 md:grid-cols-3 gap-6 min-h-[400px]">
+                <div className="flex-1 max-w-7xl w-full flex flex-col gap-6 min-h-[400px]">
                     <CacheContainer
                         title="Sector Alpha"
                         type="LRU"
